@@ -22,8 +22,13 @@ public class PlayVideo : MonoBehaviour
 
     private int index = 0;
 
+
+    private AudioSource audioSource = null;
+
     private void Awake()
     {
+        audioSource = GetComponent<AudioSource>();
+
         meshRenderer = GetComponent<MeshRenderer>();
         videoPlayer = GetComponent<VideoPlayer>();
 
@@ -43,6 +48,8 @@ public class PlayVideo : MonoBehaviour
 
     private void Start()
     {
+        videoPlayer.SetTargetAudioSource(0, audioSource);
+
         if (playAtStart)
         {
             Play();
