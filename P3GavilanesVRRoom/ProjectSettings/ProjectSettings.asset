@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: com.Unity.CreateWithVR
+  companyName: MS
   productName: Cool VR Room
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -163,8 +163,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.com.Unity.CreateWithVR.CoolVRRoom
-    Standalone: com.com.Unity.CreateWithVR.VR-Room
+    Android: com.Unity.CoolVRRoom
+    Standalone: com.Unity.Cool-VR-Room
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -292,7 +292,7 @@ PlayerSettings:
   - m_BuildTarget: 
     m_Icons:
     - serializedVersion: 2
-      m_Icon: {fileID: 2800000, guid: a6721511441c05a43964dac58584c890, type: 3}
+      m_Icon: {fileID: 2800000, guid: 2282b53898423bd4cb1938d3867e7087, type: 3}
       m_Width: 128
       m_Height: 128
       m_Kind: 0
